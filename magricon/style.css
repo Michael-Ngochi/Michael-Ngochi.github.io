@@ -12,7 +12,10 @@
     background-position-y:20%;
 }
 .hero{
-   overflow:visible;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+   min-width:0;
 }
 footer{
     bottom: 0;
@@ -56,8 +59,11 @@ background-color:rgb(82, 221, 96);
 transition: 0.4s;
 
 }
+@media only screen and(max-width:70px){
+    
+}
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 970px) {
     div.cards-box{
         flex-direction: column;
     }
@@ -65,9 +71,14 @@ transition: 0.4s;
         width: 100%;
     }
     img.experience-img{
-       display:none
-    }
+        display:none
+     }
+     div.hero{
+         display:none;
+     }
+    
 }
+
 
 
 
