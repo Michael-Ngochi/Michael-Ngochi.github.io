@@ -64,6 +64,9 @@ transition: 0.4s;
     div.zoom-card{
         width: 100%;
     }
+    img.experience-img{
+       display:none
+    }
 }
 
 
