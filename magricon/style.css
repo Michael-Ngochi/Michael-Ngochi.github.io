@@ -12,9 +12,7 @@
     background-position-y:20%;
 }
 .hero{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+   overflow:visible;
 }
 footer{
     bottom: 0;
