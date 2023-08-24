@@ -219,6 +219,9 @@ footer img{
     justify-content: space-between;
     align-items: center;
 }
+.footer-section{
+    padding:8px;
+}
 
 @media (max-width: 800px) {
     .footer-body{
