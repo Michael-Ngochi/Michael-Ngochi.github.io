@@ -233,4 +233,7 @@ footer img{
     .about-banner p{
         display:none;
     }
+    .qualifications{
+        flex-direction: column;
+    }
   }
