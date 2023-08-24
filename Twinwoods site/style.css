@@ -198,6 +198,7 @@ footer{
     padding:1rem;
     background-color: rgb(0, 87, 111);
     margin-top: 0px;
+    overflow: hidden;
 }
 footer img{
     width:10rem;
