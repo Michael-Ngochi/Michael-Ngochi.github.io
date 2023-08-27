@@ -125,15 +125,18 @@ margin-right: 30px;
 .services h1{
 text-align: center;
 }
+.all-services{
+    padding-top:8px;
+    border-radius: 0% !important;
+}
 .small-cards{
 display: flex;
-
 }
 .small-card{
- margin-left:20px;
- margin-right:20px;
+ margin:1px;
  padding:3px;
- height:fit-content;
+ height:150px !important;
+ flex:1;
 }
 
 .service1{
@@ -141,15 +144,17 @@ display: flex;
    background-position: center;
    background-size: cover;
    opacity: 1;
-/*background-color:rgba(179, 220, 224, 0.5);*/
+background-color:rgba(179, 220, 224, 0.5);
+/*background-color:rgba(116, 128, 160,0.3);*/
+}
+.service2{
+    background-color:rgba(102, 146, 224, 0.5);
 }
 .text-block{
     height: fit-content;
     width: fit-content;
     margin:0px;
-    color:white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding:220px 520px;
+    overflow: hidden;
 }
 
 .service-image{
@@ -157,19 +162,20 @@ display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .service1-image{
-     background-image:url(images/thisisengineering-raeng-df7erzy97sg-unsplash.jpg);
+    /* background-image:url(images/thisisengineering-raeng-df7erzy97sg-unsplash.jpg);*/
 }
 .service2-image{
-    background-image:url(images/martin-splitt-8ByBvAXwFEc-unsplash.jpg);
+    /*background-image:url(images/martin-splitt-8ByBvAXwFEc-unsplash.jpg);*/
 }
 .service3-image{
-    background-image:url(images/thisisengineering-raeng-df7erzy97sg-unsplash.jpg);
+    /*background-image:url(images/thisisengineering-raeng-df7erzy97sg-unsplash.jpg);*/
 }
 .service2{
    /* background-color:rgb(251, 253, 223);*/
@@ -264,4 +270,7 @@ footer img{
     .about{
         margin:0px;
     }
+    .small-cards{
+        flex-direction:column;
+        }
   }
