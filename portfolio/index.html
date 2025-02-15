@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Art Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <section class="hero">
+        <h1>Michael Ngochi</h1>
+<p>I'm a product visualization artist and graphic designer based in Nairobi, Kenya.  
+   I create high-quality 3D visuals and branding designs that make products stand out.</p>
+        
+
+
+        <section class="contact">
+            <p>Let’s collaborate on something amazing.</p>
+            <a href="mailto:your.email@example.com" class="contact-button">Get in Touch</a>
+        </section>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-item" onclick="openLightbox('images/icarus/test4.png')">
+            <img src="images/icarus/test4.png" alt="Artwork 1">
+            <p>Icarus</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/arrow/render1 edit.png')">
+            <img src="images/arrow/render1 edit.png" alt="Artwork 2">
+            <p>Girl in desert</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/for post/prison2v1viewer final.png')">
+            <img src="images/for post/prison2v1viewer final.png" alt="Artwork 3">
+            <p>Breaking out</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/inhaler/tiktoker.png')">
+            <img src="images/inhaler/tiktoker.png" alt="Artwork 3">
+            <p>Project Title 3</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/VAL2024/4.png')">
+            <img src="images/VAL2024/4.png" alt="Artwork 3">
+            <p>Valentine</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/donut/animations/1/0026.png')">
+            <img src="images/donut/animations/1/0026.png" alt="Artwork 3">
+            <p>Donut</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/abstract/1.png')">
+            <img src="images/abstract/1.png" alt="Artwork 3">
+            <p>Abstract Work</p>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/inhaler/stand1.png')">
+            <img src="images/inhaler/stand1.png" alt="Artwork 3">
+            <p>Project Title 3</p>
+        </div>
+    </section>
+
+
+    <section class="more-to-come">
+        <h2>More to Come...</h2>
+        <p>Stay tuned for more amazing 3D artworks and projects. Keep checking back for fresh updates!</p>
+        <div class="blob-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+<!-- Modal Container -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-img" src="" alt="Full Size Artwork">
+    </div>
+</div>
+
+
+
+<script defer src="script.js"></script>
+</body>
+</html>
