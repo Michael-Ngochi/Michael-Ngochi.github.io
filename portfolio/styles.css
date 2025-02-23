@@ -15,7 +15,8 @@ body {
             min-height: 100vh;
         }
         .hero {
-            background: url('') center/cover no-repeat;
+            background: url('./images/Landscape1.png');
+            background-attachment: fixed;
             padding: 120px 20px;
             text-align: center;
             position: relative;
